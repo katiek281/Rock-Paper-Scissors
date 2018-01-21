@@ -5,7 +5,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
-  * This is the  main class where your Pacman game will start.
+  * This is the  main class where my game will start.
   * The main method of this application calls the App constructor. The App class 
   * creates top-level object, sets up the scene and shows the stage.
   */
