@@ -1,8 +1,4 @@
 # Rock-Paper-Scissors
 
 
-
-I used Javafx buttons in order to have the user pick between rock, paper or scissors. In addition, I have a restart button, if 
-user wants to play again and a start button that is clicked once the user has chosen an option. In addition, I decided to use 
-enums in order to have a better understanding of the option that the computer chose vs. the option that the user chose. Due 
-to this easy distinction the conditions were easy to make to distiguish whether the game resulted in a tie, a win or a loss. 
+To create my Rock, Paper and Scissors game I created 4 classes: App, PaneOrganizer, Options and Constants. The App class is the main class in which the game will start. The App class creates the top-level object, sets up the scene and ahows the stage. If this were a larger progect I would have created another class called game in addition to the Pane Organizer. The Pane Organizer would have just taken care of organization, while the game class would have contained all of the game logic. However, because of the simplicity of the game it would have been more confusing creating the buttons in the PaneOrganizer, but keep the logic for the buttons in another class. Therefore, I kept both the creation of the buttons and the game's conditions in the Pane Organizer. I created the three game option buttons, the start button and the restart button. I have a restart button, if user wants to play again and a start button that is clicked once the user has chosen an option. In addition, I decided to use enums in order to have a better understanding of the option that the computer chose vs. the option that the user chose. Due to this easy distinction the conditions were easy to make to distiguish whether the game resulted in a tie, a win or a loss. The constants class keeps integers that I use in my code so if I need to change a value I can easily find it in this class. 
